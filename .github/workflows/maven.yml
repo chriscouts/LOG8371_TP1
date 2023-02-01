@@ -14,16 +14,12 @@ on:
   pull_request:
     branches: [ "master" ]
 
-env:
-  REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}-gha
-
 jobs:
   build:
 
     runs-on: ubuntu-latest
     container: 
-      image: ${{ env.IMAGE_NAME }}
+      image: ${{ github.repository }}-gha
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
