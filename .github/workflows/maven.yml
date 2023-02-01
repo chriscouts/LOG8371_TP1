@@ -18,16 +18,10 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container: ghcr.io/waikato/moa:latest
 
     steps:
-    - name: Pull docker image
-      uses: docker/build-pull-action@v3
-      with:
-          context: .
-          file: "docker/moa-gui.Dockerfile"
-          pull: true
-          no-cache: true
-          tags: ghcr.io/waikato/moa:latest
+#     - name: Pull docker image
     - name: Build with Maven
       run: mvn --batch-mode --update-snapshots verify -e -X
 
