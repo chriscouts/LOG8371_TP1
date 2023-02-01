@@ -20,9 +20,9 @@ jobs:
     runs-on: ubuntu-latest
     container: 
       image: ${{ github.repository }}-gha
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+#       credentials:
+#         username: ${{ github.actor }}
+#         password: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
 #     - name: Pull docker image
