@@ -50,4 +50,3 @@ jobs:
           push: true
           no-cache: true
           tags: ghcr.io/waikato/moa:devel
-  then: 
