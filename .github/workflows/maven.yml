@@ -18,7 +18,11 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    container: ghcr.io/waikato/moa:latest
+    container: 
+      image: ghcr.io/waikato/moa:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
 #     - name: Pull docker image
