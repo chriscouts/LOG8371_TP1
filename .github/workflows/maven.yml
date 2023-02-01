@@ -14,12 +14,16 @@ on:
   pull_request:
     branches: [ "master" ]
 
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}-gha
+
 jobs:
   build:
 
     runs-on: ubuntu-latest
     container: 
-      image: ghcr.io/waikato/moa:latest
+      image: ${{ env.IMAGE_NAME }}
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
