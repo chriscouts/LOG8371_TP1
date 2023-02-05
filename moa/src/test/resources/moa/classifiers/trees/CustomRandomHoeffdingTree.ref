@@ -1,0 +1,215 @@
+--> classification-out0.arff
+moa.classifiers.trees.CustomRandomHoeffdingTree
+
+Index
+  10000
+Votes
+  0: 549
+  1: 665
+Measurements
+  classified instances: 9999
+  classifications correct (percent): 66.32663266
+  Kappa Statistic (percent): 23.66607754
+  Kappa Temporal Statistic (percent): 29.02613828
+  Kappa M Statistic (percent): 17.77777778
+Model measurements
+  model training instances: 9999
+  tree size (nodes): 15
+  tree size (leaves): 11
+  active learning leaves: 11
+  tree depth: 4
+  active leaf byte size estimate: 0
+  inactive leaf byte size estimate: 0
+  byte size estimate overhead: 1
+
+Index
+  20000
+Votes
+  0: 139
+  1: 189
+Measurements
+  classified instances: 19999
+  classifications correct (percent): 68.48842442
+  Kappa Statistic (percent): 30.82924623
+  Kappa Temporal Statistic (percent): 34.21025159
+  Kappa M Statistic (percent): 24.45456725
+Model measurements
+  model training instances: 19999
+  tree size (nodes): 24
+  tree size (leaves): 17
+  active learning leaves: 17
+  tree depth: 5
+  active leaf byte size estimate: 0
+  inactive leaf byte size estimate: 0
+  byte size estimate overhead: 1
+
+Index
+  30000
+Votes
+  0: 0.32236863
+  1: 0.2603611
+Measurements
+  classified instances: 29999
+  classifications correct (percent): 69.75565852
+  Kappa Statistic (percent): 34.32001121
+  Kappa Temporal Statistic (percent): 37.32817573
+  Kappa M Statistic (percent): 27.3462524
+Model measurements
+  model training instances: 29999
+  tree size (nodes): 76
+  tree size (leaves): 55
+  active learning leaves: 55
+  tree depth: 5
+  active leaf byte size estimate: 0
+  inactive leaf byte size estimate: 0
+  byte size estimate overhead: 1
+
+Index
+  40000
+Votes
+  0: 81.17156789
+  1: 184.92786983
+Measurements
+  classified instances: 39999
+  classifications correct (percent): 70.56426411
+  Kappa Statistic (percent): 36.77312995
+  Kappa Temporal Statistic (percent): 39.15559919
+  Kappa M Statistic (percent): 29.58133971
+Model measurements
+  model training instances: 39999
+  tree size (nodes): 104
+  tree size (leaves): 72
+  active learning leaves: 72
+  tree depth: 6
+  active leaf byte size estimate: 0
+  inactive leaf byte size estimate: 0
+  byte size estimate overhead: 1
+
+Index
+  50000
+Votes
+  0: 0.67745375
+  1: 0.51745083
+Measurements
+  classified instances: 49999
+  classifications correct (percent): 71.46742935
+  Kappa Statistic (percent): 39.05771504
+  Kappa Temporal Statistic (percent): 40.94709827
+  Kappa M Statistic (percent): 31.72856049
+Model measurements
+  model training instances: 49999
+  tree size (nodes): 109
+  tree size (leaves): 76
+  active learning leaves: 76
+  tree depth: 6
+  active leaf byte size estimate: 0
+  inactive leaf byte size estimate: 0
+  byte size estimate overhead: 1
+
+Index
+  60000
+Votes
+  0: 4
+  1: 69
+Measurements
+  classified instances: 59999
+  classifications correct (percent): 72.15286921
+  Kappa Statistic (percent): 40.88554681
+  Kappa Temporal Statistic (percent): 42.41599173
+  Kappa M Statistic (percent): 33.70367431
+Model measurements
+  model training instances: 59999
+  tree size (nodes): 149
+  tree size (leaves): 105
+  active learning leaves: 105
+  tree depth: 7
+  active leaf byte size estimate: 0
+  inactive leaf byte size estimate: 0
+  byte size estimate overhead: 1
+
+Index
+  70000
+Votes
+  0: 12
+  1: 330
+Measurements
+  classified instances: 69999
+  classifications correct (percent): 72.61818026
+  Kappa Statistic (percent): 42.10874658
+  Kappa Temporal Statistic (percent): 43.55840867
+  Kappa M Statistic (percent): 35.03592733
+Model measurements
+  model training instances: 69999
+  tree size (nodes): 163
+  tree size (leaves): 115
+  active learning leaves: 115
+  tree depth: 7
+  active leaf byte size estimate: 0
+  inactive leaf byte size estimate: 0
+  byte size estimate overhead: 1
+
+Index
+  80000
+Votes
+  0: 0.01515715
+  1: 0.19308685
+Measurements
+  classified instances: 79999
+  classifications correct (percent): 72.95841198
+  Kappa Statistic (percent): 42.97201782
+  Kappa Temporal Statistic (percent): 44.31516899
+  Kappa M Statistic (percent): 35.83758453
+Model measurements
+  model training instances: 79999
+  tree size (nodes): 172
+  tree size (leaves): 121
+  active learning leaves: 121
+  tree depth: 7
+  active leaf byte size estimate: 0
+  inactive leaf byte size estimate: 0
+  byte size estimate overhead: 1
+
+Index
+  90000
+Votes
+  0: 1537
+  1: 1543
+Measurements
+  classified instances: 89999
+  classifications correct (percent): 73.20303559
+  Kappa Statistic (percent): 43.5444168
+  Kappa Temporal Statistic (percent): 44.79340735
+  Kappa M Statistic (percent): 36.40031646
+Model measurements
+  model training instances: 89999
+  tree size (nodes): 181
+  tree size (leaves): 127
+  active learning leaves: 127
+  tree depth: 7
+  active leaf byte size estimate: 0
+  inactive leaf byte size estimate: 0
+  byte size estimate overhead: 1
+
+Index
+  100000
+Votes
+  0: 628
+  1: 44
+Measurements
+  classified instances: 99999
+  classifications correct (percent): 73.40473405
+  Kappa Statistic (percent): 44.07457103
+  Kappa Temporal Statistic (percent): 45.21465063
+  Kappa M Statistic (percent): 36.95178038
+Model measurements
+  model training instances: 99999
+  tree size (nodes): 224
+  tree size (leaves): 156
+  active learning leaves: 156
+  tree depth: 8
+  active leaf byte size estimate: 0
+  inactive leaf byte size estimate: 0
+  byte size estimate overhead: 1
+
+
+
