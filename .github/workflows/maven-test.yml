@@ -28,7 +28,7 @@ jobs:
     - name: Build with Maven
       run: mvn compile
   test:
-
+    needs: build
     runs-on: ubuntu-latest
 
     steps:
